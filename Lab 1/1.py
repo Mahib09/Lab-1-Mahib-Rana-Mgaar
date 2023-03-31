@@ -34,11 +34,11 @@ else:
     billtotal=totalwithtax
 
 #output
-print('         Melanie Dental Clinic           ')
-print('    * ----------------------------*     ')
-print('         Receipt for patient name:')
-print('               ',patient_name)
+print('         Melanie Dental Clinic')
+print('    * ----------------------------*')
+print('    Receipt for patient name:',patient_name)
+print('----------------------------------------------')
 print('             subtotal:', total )
 print('             tax:', totalwithtax-total)
-print('                ',billtotal)
-print('                 Total')
+print('----------------------------------------------')
+print('             Total',billtotal)
